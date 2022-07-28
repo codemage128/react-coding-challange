@@ -32,7 +32,7 @@ export default function ImageContent({data}) {
     return (
         <>
             <InfiniteScroll
-                dataLength={images.length}
+                dataLength={images && images.length}
                 next={getMoreImage}
                 hasMore={hasMore}
                 loader={<h3> Loading...</h3>}
@@ -42,7 +42,7 @@ export default function ImageContent({data}) {
                     variant="quilted"
                     cols={6}
                 >
-                    {images.map((item, index) => (
+                    {images && images.map((item, index) => (
                         <ImageListItem key={item.img}
                                        cols={pattern[index - Math.floor(index / pattern.length) * pattern.length].cols}
                                        rows={pattern[index - Math.floor(index / pattern.length) * pattern.length].rows}>

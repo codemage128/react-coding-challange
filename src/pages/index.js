@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Box, Container} from '@mui/material';
+import {Box, Container, Typography} from '@mui/material';
 import ImageContent from "../components/ImageContent";
 import axios from "axios";
 import {asImageFormat} from "../utils/image";
@@ -7,6 +7,7 @@ import {asImageFormat} from "../utils/image";
 export default function Home({images}) {
     return (
         <Container sx={{textAlign: 'center'}}>
+            <Typography variant={'h1'}>Welcome to gallery</Typography>
             <ImageContent data={images}/>
         </Container>
     );
