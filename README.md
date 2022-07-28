@@ -6,13 +6,13 @@ If you're unfamiliar with React, Facebook has put together a helpful tutorial th
 
 #### Build a simple React app that allows viewing and interacting with a grid of photos from Unsplash
 
-- [ ] Fork this repo into your GitHub account. Keep it public until we have been able to review it.
-- [ ] Use `npx create-next-app your_app_name` to set up a Next.js application as shown here: 
+- [X] Fork this repo into your GitHub account. Keep it public until we have been able to review it.
+- [X] Use `npx create-next-app your_app_name` to set up a Next.js application as shown here: 
 https://nextjs.org/learn/basics/create-nextjs-app .
-- [ ] Refer to the Unsplash API docs here to set up a developer account: https://unsplash.com/documentation.
-- [ ] Display a grid of photos in your React app. Use the `GET /photos` endpoint from the Unsplash API to get a set of curated images.
-- [ ] The grid of photos should preserve the aspect ratio of the photos it's displaying, meaning it shouldn't crop the image in any way.
-- [ ] The grid should be responsive, and should work in both portrait and landscape orientations on both mobile and desktop browsers.
+- [X] Refer to the Unsplash API docs here to set up a developer account: https://unsplash.com/documentation.
+- [X] Display a grid of photos in your React app. Use the `GET /photos` endpoint from the Unsplash API to get a set of curated images.
+- [X] The grid of photos should preserve the aspect ratio of the photos it's displaying, meaning it shouldn't crop the image in any way.
+- [X] The grid should be responsive, and should work in both portrait and landscape orientations on both mobile and desktop browsers.
 - [ ] The grid should support infinite scrolling, using a lazy-load strategy to fetch additional images as the user scrolls.
 - [ ] You're free to use existing open source React components or Javascript packages/libraries from npm to complete this task.
 - [ ] You're free to use any UI framework such as Tailwind, Material UI etc.
